@@ -157,7 +157,7 @@ html {
 #home {
   position: relative;
   height: 100vh;
-  background: url(assets/images/home2.jpg);
+  background: url(../images/home2.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@ html {
   max-width: 850px;
   left: 0;
   right: 0;
-  background: url(assets/images/pattern1.png) left center / 217px no-repeat;
+  background: url(../images/pattern1.png) left center / 217px no-repeat;
   color: var(--light-color);
   z-index: 3;
   text-align: left;
