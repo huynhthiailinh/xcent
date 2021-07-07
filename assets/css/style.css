@@ -531,7 +531,7 @@ html {
 #about .side-image {
   position: absolute;
   padding: 0 15px;
-  background-image: url(assets/images/about.jpg);
+  background-image: url(../images/about.jpg);
   background-size: cover;
   background-position: center;
   float: left;
