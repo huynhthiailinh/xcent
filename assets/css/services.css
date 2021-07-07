@@ -1,0 +1,50 @@
+#services {
+    background-color: var(--back-color);
+  }
+  
+  #services .row {
+    display: block;
+    /* overflow: hidden; */
+  }
+  
+  #services .col {
+    position: relative;
+    padding: 0 15px;
+    width: calc(100% / 3);
+    float: left;
+  }
+  
+  #services .iconbox {
+    position: relative;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: var(--light-color);
+    padding: 50px 20px;
+    margin: 30px 10px;
+    box-shadow: -6px 10px 40px rgb(0 0 0 / 6%);
+  }
+  
+  #services .iconbox-icon {
+    position: absolute;
+    margin: 0 auto;
+    top: -35px;
+    left: 0;
+    right: 0;
+    background-color: var(--light-color);
+    color: var(--main-color);
+    font-size: 30px;
+    font-weight: 900;
+    border-radius: 50px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    box-shadow: -6px 10px 40px rgb(0 0 0 / 6%);
+  }
+  
+  #services .iconbox-text {
+    padding-top: 30px;
+    text-align: center;
+  }

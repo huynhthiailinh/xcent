@@ -144,20 +144,6 @@ if (footerPos.bottom - 1 < screen.height) {
 };
 
 
-//khi mouseover va mouse out o portfolio item
-var portfolioItems = document.querySelectorAll('#portfolio .list-items-container .list-item');
-var figcaptionItems = document.querySelectorAll('#portfolio .list-items-container .list-item .figcaption');
-
-for (let item = 0; item < portfolioItems.length; item++) {
-    portfolioItems[item].onmouseover = function() {
-        figcaptionItems[item].classList.add("figcaption-hover");
-    }
-    portfolioItems[item].onmouseout = function() {
-        figcaptionItems[item].classList.remove("figcaption-hover");
-    }
-}
-
-
 //filter ảnh ở portfolio section
 // var $portfolioContainer = $('.list-item-container');
 // console.log(portfolioContainer);

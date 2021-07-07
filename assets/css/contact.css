@@ -1,0 +1,50 @@
+#contact .wrapper {
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 50%;
+}
+
+#contact .form-group:focus {
+  border-color: var(--line-color);
+}
+
+#contact .form-group {
+  border: 1px solid var(--sub-color);
+  border-radius: 2px;
+  cursor: text;
+  color: var(--form-color);
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+}
+
+#contact .name-box,
+#contact .email-box {
+  height: 34px;
+  padding: 0 15px;
+  margin-bottom: 15px;
+  line-height: 21.6px;
+}
+
+#contact .message-box {
+  padding: 15px;
+  margin-bottom: 8px;
+  line-height: 1.42;
+}
+
+#contact .send-message-btn {
+  background-color: var(--main-color);
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  font-family: "Poppins", sans-serif;
+  color: var(--light-color);
+  padding: 7px 25px;
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 18.5714px;
+  cursor: pointer;
+}

@@ -1,0 +1,71 @@
+#testimonial {
+  background-color: var(--back-color);
+}
+
+#testimonial .wrapper-icon {
+  position: relative;
+  height: 130px;
+}
+
+#testimonial .module-icon {
+  position: absolute;
+  margin-bottom: 50px;
+  width: 80px;
+  height: 80px;
+  background-color: transparent;
+  border-radius: 50%;
+  font-size: 32px;
+  color: var(--main-color);
+  font-weight: 900;
+  line-height: 80px;
+  text-align: center;
+  box-shadow: -4px 1px 13px rgb(0 0 0 / 10%);
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#testimonial .wrapper-text {
+  position: relative;
+  margin: 0 auto 20px auto;
+  padding: 0 15px;
+  width: calc(100% / 3 * 2);
+  text-align: center;
+}
+
+#testimonial .testimonials {
+  margin-bottom: 20px;
+}
+
+#testimonial .quote {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 21.6px;
+  margin: 0 auto 10px auto;
+  max-width: 500px;
+}
+
+#testimonial .author {
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21.6px;
+}
+
+#testimonial .controls {
+  margin-top: 40px;
+}
+
+#testimonial .owl-page {
+  padding: 3px;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  height: 12.5px;
+  width: 13px;
+  line-height: 21.6px;
+  opacity: 0.5;
+}
+
+#testimonial .controls .owl-page:hover,
+#testimonial .controls .active {
+  background-color: var(--main-color);
+  opacity: 1;
+}
