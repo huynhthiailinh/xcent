@@ -302,8 +302,8 @@ html {
   background-color: var(--light-color);
 }
 
-#navbar .is-sticky {
-  box-shadow: 0 0 8px #ccc;
+#navbar.is-sticky {
+  box-shadow: 0 6px 30px rgb(0 0 0 / 5%);
 }
 
 #navbar .container {
@@ -344,10 +344,13 @@ html {
   background-color: var(--main-color);
   color: var(--light-color);
   cursor: pointer;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-in-out;
 }
 
 #navbar .navbar-right > li {
-  display: inline-block;
+  float: left;
+  list-style-type: none;
 }
 
 #navbar .navbar-right > li > a {
@@ -406,9 +409,9 @@ html {
 }
 
 #portfolio .list-items-container .list-item:hover .figcaption {
-  display: block;
+  opacity: 1;
   cursor: pointer;
-  transform: scale(0.97);
+  transform: scale(0.94);
 }
 
 #portfolio .list-items-container .list-item {
@@ -429,15 +432,16 @@ html {
 }
 
 #portfolio .figcaption {
-  display: none;
+  opacity: 0;
   position: absolute;
-  top: 8px;
-  right: 8px;
-  bottom: 8px;
-  left: 8px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
   padding: 25px;
   text-align: center;
   background: var(--opacity-gradient-background-color);
+  transition: all 0.3s ease-in-out;
 }
 
 #portfolio .caption-inner {

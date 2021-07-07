@@ -24,6 +24,11 @@
     width: 100%;
   }
 
+  #navbar .navbar-right > li {
+    float: left;
+    list-style-type: none;
+  }
+
   #portfolio .list-items-container .list-item {
     width: 50%;
   }
